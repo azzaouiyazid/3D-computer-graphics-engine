@@ -1,0 +1,10 @@
+// move away from the viewer
+m -2, p
+// create the outside faces
+m 4, p
+// shrink down to create the small end faces
+s 0.95 0.95, p
+// move back to create the inside faces
+m -4, p
+// expand again to create the small end faces at the other end
+s 1.0526 1.0526, p
