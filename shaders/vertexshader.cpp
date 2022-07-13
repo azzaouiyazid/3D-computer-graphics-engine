@@ -1,4 +1,4 @@
-// This file defines a class for OpenGL fragment shaders
+// This file defines a class for OpenGL vertex shaders
 
 
 
@@ -7,33 +7,33 @@
 // includes
 // -----------------------------------------------------------------------------------------
 #include "prefix.h"
-#include "fragmentshader.h"
+#include "vertexshader.h"
 #include "utility.h"
 
 
 
 
 // -----------------------------------------------------------------------------------------
-// default fragmentshader constructor
+// default vertexshader constructor
 // -----------------------------------------------------------------------------------------
 
-fragmentshader::fragmentshader(string theFilename)
+vertexshader::vertexshader(string theFilename)
 {
 	if (GLEW_VERSION_2_0)
 	{
-		shaderID = glCreateShader(GL_FRAGMENT_SHADER);
-		shaderText = readShaderFile(theFilename);
-		const GLchar *program = shaderText;
-		glShaderSource(shaderID, 1, &program, NULL);
-		glCompileShader(shaderID);
-		
+		shaderID = glCreateShader(GL_VERTEX_SHADER);	// creates a single vertex shader
+		shaderText = readShaderFile(theFilename);		// user-function to get the shader source to memory
+		const GLchar *program = shaderText;				// compilers complain almost as much as lecturers...
+		glShaderSource(shaderID, 1, &program, NULL);	// associate the shader source with the shader
+		glCompileShader(shaderID);						// compile the shader source
+
 		GLint retval;
 		glGetShaderiv(shaderID, GL_COMPILE_STATUS, &retval);
 		if (retval == GL_FALSE)
 		{
-			cout << "fragment shader " << theFilename << " compile failed\n";
+			cout << "vertex shader " << theFilename << " compile failed\n";
 		}
-			
+
 		GLint infologLength = 0;
 		GLint charsWritten  = 0;
 		char *infoLog;
@@ -44,7 +44,7 @@ fragmentshader::fragmentshader(string theFilename)
 		{
 			infoLog = (char *)malloc(infologLength);
 			glGetShaderInfoLog(shaderID, infologLength, &charsWritten, infoLog);
-			printf("fragment shader info log: %s\n",infoLog);
+			printf("vertex shader info log: %s\n",infoLog);
 			free(infoLog);
 		}
 	}
@@ -55,10 +55,10 @@ fragmentshader::fragmentshader(string theFilename)
 
 
 // -----------------------------------------------------------------------------------------
-// fragmentshader destructor
+// vertexshader destructor
 // -----------------------------------------------------------------------------------------
 
-fragmentshader::~fragmentshader()
+vertexshader::~vertexshader()
 {
 	if (shaderID) glDeleteShader(shaderID);
 }
