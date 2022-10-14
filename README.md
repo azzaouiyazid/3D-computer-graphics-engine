@@ -3,24 +3,19 @@
 ## Table of contents
 
 * [General info](#general-info)
+* [credits](#credits)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Technologies](#technologies)
 * [Project objectives](#project-objectives)
 
-## Database Model 
-
-* [Full schema](#Full-schema)
-* [ER-Diagram](#ER-Diagram)
-
-
-
-
-
-
 ## General info
-A simple University Management System database  created With Java Swing , JDBC , Sqlite.
-the project is part of my second year database project at Zhejiang university of technology 
+
+A custumized 3d graphical engine using Opengl 
+
+## Credits 
+This project has been contributed by the help of my second year computer graphic lecturer Huang Xiaping 黄鲜萍 for the guidance ,review and recommandation .Tony gray ,Computer Graphics & Animation lecturer at the University of tasmania  as autor of the shaders , support folder .
+ 
 
 ## Screenshots 
 ![table](https://user-images.githubusercontent.com/78693054/181716339-82d60804-9004-4109-8194-5f7786b04455.png)
@@ -30,30 +25,27 @@ the project is part of my second year database project at Zhejiang university of
 
 
 ## Setup
-To run this project correctly , change the database location by modifying this line located in Sqlconnect.java :
-![jdbc connection](https://user-images.githubusercontent.com/78693054/185797470-4de84542-0be3-45c0-ae0d-d8ae73ddf18d.png)
 
-```
-Connection conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Electro-Market.ma\\eclipse-workspace\\Ums\\yazid.db");
-```
+
 	
 ## Technologies
 Project was created with:
-* Sqlite JDBC version: 3.7.2
-* JSE syteme liberary version: J2SE-1.5
-* Sqlite version: 3.35.3
+* Opengl version : 3.7.2
+* Visual studio code : J2SE-1.5
+* C++: 3.35.3
 
 ## Project objectives
 this project will give a better understanding about : 
 
-* Setting Up the Database
-* manually register Java DB in the IDE
-* Starting the Server and Creating a Database
-* create the database
-* Connecting to the Database
-* Creating the Application
-* Binding Controls to Values in the Table
-* To bind the checkboxes to their corresponding table elements
+* provide an arsenal of visual development tools
+* learning the abstraction and and computational thinking 
+* better understanding about the homogeneous representation , matrix operation .
+* usage of GLUT / GLFW .
+* understanding the platfrom specific utility functions ,system timer interfaces , texture loading and sound support 
+* usage of interpolated shading , Opengl lighting model , texture mapping and filtering 
+* updating attributes of created objects such as position orientation , colour for animation purposes .
+* terrain / spaces creation 
+* good understanding about the hierarchical structure concept 
 
 
 ## Full-schema
