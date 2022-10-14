@@ -6,7 +6,6 @@
 * [Content of the project](#content)
 * [credits](#credits)
 * [Screenshots](#screenshots)
-* [Setup](#setup)
 * [Technologies](#technologies)
 * [Project objectives](#project-objectives)
 
@@ -38,16 +37,12 @@ This project is a combination of : 
 ![image](https://user-images.githubusercontent.com/78693054/195824735-d518475b-7632-442a-a084-3e0a76289260.png)
 ![image](https://user-images.githubusercontent.com/78693054/195824797-d0e5e61a-bde8-46fe-921a-b870b8b72066.png)
 
-
-## Setup
-
-
 	
 ## Technologies
 Project was created with:
-* Opengl version : 3.7.2
-* Visual studio code : J2SE-1.5
-* C++: 3.35.3
+* Opengl version : 4.6
+* Visual studio 2019 : 1.41
+* C++: 14
 
 ## Project objectives
 this project will give a better understanding about : 
