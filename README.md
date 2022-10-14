@@ -12,7 +12,7 @@
 
 ## General info
 
-A custumized 3d graphical engine using Opengl 
+A custumized 3d graphical engine using Opengl , C and C++ 
 
 ## Credits 
 This project has been contributed by the help of my second year computer graphic lecturer Huang Xiaping 黄鲜萍 for the guidance ,review and recommandation .Tony gray ,Computer Graphics & Animation lecturer at the University of tasmania  as autor of the shaders , support folder .
