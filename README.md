@@ -3,6 +3,7 @@
 ## Table of contents
 
 * [General info](#general-info)
+* [Content of the project](#content)
 * [credits](#credits)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
@@ -15,13 +16,27 @@ A custumized 3d graphical engine using Opengl
 
 ## Credits 
 This project has been contributed by the help of my second year computer graphic lecturer Huang Xiaping 黄鲜萍 for the guidance ,review and recommandation .Tony gray ,Computer Graphics & Animation lecturer at the University of tasmania  as autor of the shaders , support folder .
+
+## Content 
+This project is a combination of : 
+* 9 complex object class 
+* 4 complex object have animated childs 
+* 1 skybox 
+* 20 object present in the space 
+* 2 ogg files 
+* Camera scene control 
+
+
  
 
 ## Screenshots 
-![table](https://user-images.githubusercontent.com/78693054/181716339-82d60804-9004-4109-8194-5f7786b04455.png)
+![image](https://user-images.githubusercontent.com/78693054/195824372-4cc87a6f-a1d9-4895-a1b7-97db1ede0594.png)
 
-![Screenshot 2022-05-02 155201](https://user-images.githubusercontent.com/78693054/195813512-ee874d81-b1d7-43f1-8229-40187bb56b4b.png)
-
+![image](https://user-images.githubusercontent.com/78693054/195824471-ed5c159c-8f18-417d-8bf9-0e1023fbef87.png)
+![image](https://user-images.githubusercontent.com/78693054/195824581-c11521d7-f788-460b-bebf-0a3a893a4615.png)
+![image](https://user-images.githubusercontent.com/78693054/195824654-567c5e7c-617f-44ff-ac78-caf5812293b9.png)
+![image](https://user-images.githubusercontent.com/78693054/195824735-d518475b-7632-442a-a084-3e0a76289260.png)
+![image](https://user-images.githubusercontent.com/78693054/195824797-d0e5e61a-bde8-46fe-921a-b870b8b72066.png)
 
 
 ## Setup
