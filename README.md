@@ -1,4 +1,4 @@
-## University-Management-System Database 
+## 3D graphical engine 
 
 ## Table of contents
 
@@ -48,12 +48,11 @@ this project will give a better understanding about :
 * good understanding about the hierarchical structure concept 
 
 
-## Full-schema
-![Screenshot 2022-08-21 175123](https://user-images.githubusercontent.com/78693054/185801183-f06850db-3787-4460-8d5e-395509c26564.png)
 
 
-## ER-Diagram
-![E-R diagram ums](https://user-images.githubusercontent.com/78693054/185799159-edb89ff1-a187-4ea8-86a9-5e7d606c08b9.png)
+
+
+
 
 
 
