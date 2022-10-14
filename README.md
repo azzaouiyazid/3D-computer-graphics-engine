@@ -47,15 +47,15 @@ Project was created with:
 ## Project objectives
 this project will give a better understanding about : 
 
-* provide an arsenal of visual development tools
-* learning the abstraction and and computational thinking 
-* better understanding about the homogeneous representation , matrix operation .
+* providing arsenal of visual development tools
+* the abstraction and and computational thinking 
+* homogeneous representation , matrix operation .
 * usage of GLUT / GLFW .
-* understanding the platfrom specific utility functions ,system timer interfaces , texture loading and sound support 
+* platfrom specific utility functions ,system timer interfaces , texture loading and sound support 
 * usage of interpolated shading , Opengl lighting model , texture mapping and filtering 
 * updating attributes of created objects such as position orientation , colour for animation purposes .
 * terrain / spaces creation 
-* good understanding about the hierarchical structure concept 
+* the hierarchical structure concept 
 
 
 
